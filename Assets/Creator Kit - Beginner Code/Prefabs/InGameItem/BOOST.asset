@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640b52b005f736744b3aabdfb8f24abb, type: 3}
+  m_Name: BOOST
+  m_EditorClassIdentifier: 
+  ItemName: Health Hat
+  ItemSprite: {fileID: 21300000, guid: fee1d85819da082459912a02dad9911b, type: 3}
+  Description: Doubles Health
+  WorldObjectPrefab: {fileID: 3708913862093087952, guid: 7f10fbbab5db63c40ba7cc5b6e9788c2,
+    type: 3}
+  Slot: 0
+  MinimumStrength: 0
+  MinimumAgility: 0
+  MinimumDefense: 0
+  EquippedEffects:
+  - {fileID: 4550209775779200110}
+--- !u!114 &4550209775779200110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2384e179cdc8af049bbcfe98218a69fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: double health

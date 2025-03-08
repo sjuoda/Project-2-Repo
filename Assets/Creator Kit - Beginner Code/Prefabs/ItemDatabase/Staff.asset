@@ -12,25 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a96cf71494313b42b0e2459b8aa90d2, type: 3}
   m_Name: Staff
   m_EditorClassIdentifier: 
-  ItemName: Ellen's Staff
+  ItemName: NUKE STAFF
   ItemSprite: {fileID: 21300000, guid: 4ebe3495b584a3f47bb652e3c90d7480, type: 3}
-  Description: That thing hums with energy and seems almost magical
+  Description: extra damage
   WorldObjectPrefab: {fileID: 5482170467533448303, guid: 56ca1676619f33d48b134bb4a8b721c8,
     type: 3}
   Slot: 666
-  MinimumStats:
-    health: 0
-    strength: 0
-    defense: 0
-    agility: 0
-    elementalProtection: 00000000000000000000000000000000
-    elementalBoosts: 00000000000000000000000000000000
+  MinimumStrength: 0
+  MinimumAgility: 0
+  MinimumDefense: 0
   EquippedEffects: []
   HitSounds: []
   SwingSounds: []
   Stats:
-    Speed: 0.5
+    Speed: 0.2
     MinimumDamage: 15
-    MaximumDamage: 20
-    MaxRange: 2
+    MaximumDamage: 50
+    MaxRange: 1
   AttackEffects: []
